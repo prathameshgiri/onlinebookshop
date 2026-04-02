@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "id": "f8cca2e7-1d17-4f1b-b60a-a61177443d30",
+      "id": "a5c3585c-b1e6-44ee-b006-f86bc0af988a",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "price": 299,
@@ -16,10 +16,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
       "badge": "Bestseller",
       "featured": true,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.447Z"
     },
     {
-      "id": "4356df0a-9698-44b9-9e58-a5744a6d9168",
+      "id": "47d51d90-5de3-4f8f-aeeb-f97dc4580548",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "price": 349,
@@ -34,10 +34,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780061935466-L.jpg",
       "badge": "Award Winner",
       "featured": true,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "caee95d2-187d-4148-98d3-831d4d5bac94",
+      "id": "057be99b-9ba6-4473-af62-f22dd8b1163d",
       "title": "1984",
       "author": "George Orwell",
       "price": 249,
@@ -52,10 +52,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
       "badge": "Classic",
       "featured": true,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "ea6c5cc5-4f7b-416c-be8e-109e64c94f85",
+      "id": "1da83845-7ee3-4ccd-a476-43bb6fb8a4bd",
       "title": "Atomic Habits",
       "author": "James Clear",
       "price": 499,
@@ -70,10 +70,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
       "badge": "#1 Bestseller",
       "featured": true,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "65ddb3b0-801c-4eca-b75c-17e99fe514e4",
+      "id": "2e91966e-d6a4-4bc7-9eae-1f4c2d885e0c",
       "title": "Sapiens",
       "author": "Yuval Noah Harari",
       "price": 449,
@@ -88,10 +88,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
       "badge": "Trending",
       "featured": false,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "5b885bbf-65de-4e2f-bf72-62c45c6ef45f",
+      "id": "b46be02b-90cc-4275-a09c-90e64d7b5d30",
       "title": "The Psychology of Money",
       "author": "Morgan Housel",
       "price": 399,
@@ -106,10 +106,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780857197689-L.jpg",
       "badge": "New",
       "featured": false,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "b50bb222-9026-4fc6-910e-2985888a3bef",
+      "id": "a6e8a15e-c9ce-4f5e-a4c9-6050c335f560",
       "title": "Dune",
       "author": "Frank Herbert",
       "price": 549,
@@ -124,10 +124,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780441013593-L.jpg",
       "badge": "Epic",
       "featured": false,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "7b48854f-4a29-4063-ae49-5758ac754ab6",
+      "id": "a3952448-9dd8-4d15-b2eb-24208f95ccbc",
       "title": "The Midnight Library",
       "author": "Matt Haig",
       "price": 329,
@@ -142,10 +142,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg",
       "badge": "Staff Pick",
       "featured": false,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "a03e587b-8da4-4967-9a26-097836d5e662",
+      "id": "5d56819c-4c80-41f4-90eb-2120d7ae1c07",
       "title": "Thinking, Fast and Slow",
       "author": "Daniel Kahneman",
       "price": 459,
@@ -160,10 +160,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
       "badge": "Nobel Winner",
       "featured": false,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "71d154ec-9a64-4ad2-8658-376da4837a54",
+      "id": "3f86a3fc-c363-415c-904d-5172ed10cd90",
       "title": "The Alchemist",
       "author": "Paulo Coelho",
       "price": 199,
@@ -178,10 +178,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg",
       "badge": "All Time Classic",
       "featured": false,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "b59daa20-ca30-49f1-9fd9-e8e1efa80aaf",
+      "id": "08a139e3-f1e7-4c17-96da-eaac9e58224f",
       "title": "Rich Dad Poor Dad",
       "author": "Robert T. Kiyosaki",
       "price": 279,
@@ -196,10 +196,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg",
       "badge": "Iconic",
       "featured": false,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     },
     {
-      "id": "265afbf2-c0a9-4424-b503-0ce48ff9c019",
+      "id": "9a9ef035-5302-4083-9309-dbdf169538a3",
       "title": "Brave New World",
       "author": "Aldous Huxley",
       "price": 229,
@@ -214,7 +214,7 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
       "badge": "Classic",
       "featured": false,
-      "createdAt": "2026-03-26T17:43:04.122Z"
+      "createdAt": "2026-04-02T12:02:06.448Z"
     }
   ],
   "orders": [],

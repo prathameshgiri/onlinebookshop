@@ -2,7 +2,7 @@
 /* ADMIN DASHBOARD — admin.js                                                 */
 /* ─────────────────────────────────────────────────────────────────────────── */
 
-const API = 'http://localhost:3001/api/admin';
+const API = '/api/admin';
 let token = localStorage.getItem('pt_admin_token');
 let currentPage = { books: 1, orders: 1 };
 let orderStatusFilter = 'all';

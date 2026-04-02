@@ -2,7 +2,7 @@
 /* USER SITE — app.js                                                         */
 /* ─────────────────────────────────────────────────────────────────────────── */
 
-const API = 'http://localhost:3000/api';
+const API = '/api';
 
 // ─── STATE ─────────────────────────────────────────────────────────────────
 let cart = JSON.parse(localStorage.getItem('pt_cart') || '[]');

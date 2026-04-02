@@ -9,7 +9,7 @@ Welcome to **PageTurn**, a fully-featured, dual-portal e-commerce web applicatio
 
 ## 🌟 Key Features
 
-### User Platform (`http://localhost:3000`)
+### User Platform (`http://localhost:3000/`)
 - **Modern UI/UX:** Premium aesthetic with dark themes, glassmorphism, and smooth animations.
 - **Product Catalog:** Browse, filter, search, and view book details and stock status.
 - **Cart & Checkout:** Fully functioning shopping cart with calculated shipping and multiple payment options (Card, UPI, COD).
@@ -17,9 +17,9 @@ Welcome to **PageTurn**, a fully-featured, dual-portal e-commerce web applicatio
 - **Contact Form:** Send inquiries and messages directly to the site administrators.
 - **Real-Time Data:** Books display real covers dynamically from Open Library API and show actual INR (₹) prices.
 
-### Admin Dashboard (`http://localhost:3001`)
+### Admin Dashboard (`http://localhost:3000/admin`)
 - **Actionable Analytics:** View realtime metrics including total sales, order statistics, unread messages, and sales categorized by genre.
-- **Real-time Synchronization:** Orders placed by users reflect in the dashboard instantly without manual server restarts.
+- **Unified Server Architecture:** Both user and admin run off the same seamless single server instance, allowing for instant frontend deployment anywhere including Render!
 - **Inventory Management:** Full CRUD operations — Add, edit, or delete books, update stock levels, prices, and manage book badges (e.g., "Bestseller").
 - **Order Processing:** Track orders and update their delivery statuses (Pending, Processing, Shipped, Delivered, Cancelled).
 - **Instant Notifications:** Polling-based notification bell alerts you of new orders and messages.
@@ -31,7 +31,7 @@ Welcome to **PageTurn**, a fully-featured, dual-portal e-commerce web applicatio
 - **Backend Framework:** Node.js with Express.js.
 - **Database:** LowDB (A lightweight, local JSON-based database).
 - **Authentication:** JWT (JSON Web Tokens) & `bcryptjs` for secure admin logins.
-- **Concurrency:** `concurrently` package to run both User and Admin portals from a single command.
+- **Unified Structure:** Fully rewritten to use a single port (`server.js`), fully compatible with cloud hosting like Render!
 
 ---
 
@@ -57,21 +57,23 @@ Now, you need to open the terminal where you will paste the commands.
 3. A terminal panel will open at the bottom of your screen. 
 **Make sure the path in the terminal shows your project folder (e.g., `...\Online Book Shop>`).**
 
-### Step 4: Start the Project (All-in-One Command)
-You can install packages, generate mock data, and start both the user website and admin dashboard using just **one single command**!
-1. **Copy** the command below:
+### Step 4: Start the Project
+To run the server properly, first install packages and seed the mock data, then run the project!
+1. **Copy** and run this to install dependencies and mock data:
+```bash
+npm install && npm run seed
+```
+2. **Copy** and run this to start the actual website server!
 ```bash
 npm start
 ```
-2. **Paste** it into the VS Code terminal and press **Enter**.
-3. *Wait for 1-2 minutes.* It will automatically download required folders (`node_modules`), create the database (`data/db.json`), and start the servers on Port 3000 and Port 3001.
-4. Keep the terminal **OPEN**. Do not close VS Code while checking the website!
+3. *Wait for a few seconds.* It will display `Unified server running on port 3000`. You can leave it running.
 
 ### Step 5: Open in your Browser (Chrome/Edge)
 Finally, to view your project, open your browser and go to these links:
 
-- 🛒 **User Website (Main Shop):** Click 👉 [http://localhost:3000](http://localhost:3000)
-- ⚙️ **Admin Dashboard Panel:** Click 👉 [http://localhost:3001](http://localhost:3001)
+- 🛒 **User Website (Main Shop):** Click 👉 [http://localhost:3000/](http://localhost:3000/)
+- ⚙️ **Admin Dashboard Panel:** Click 👉 [http://localhost:3000/admin/](http://localhost:3000/admin/)
 
 > 💡 **Tip for Admin Login:**
 > When you open the Admin Panel, it will ask for a login. Use these credentials:
@@ -86,6 +88,32 @@ When you are done checking the project and want to turn it off:
 
 ---
 
+## 🌩️ Deployment (Render)
+
+Deploying PageTurn to the cloud is incredibly simple thanks to our Unified Server Architecture! We highly recommend deploying as a **Web Service** on [Render.com](https://render.com/).
+
+### Steps to Deploy:
+1. **Push your code to GitHub:**
+   Upload your repository to a new GitHub repository. Ensure your code is up to date.
+2. **Login to Render:**
+   Sign up or log in at the Render dashboard and click **New +** -> **Web Service**.
+3. **Connect your Repository:**
+   Select your GitHub repository from the list.
+4. **Configure Settings:**
+   - **Name:** *Your project name* (e.g., `pageturn-bookshop`)
+   - **Environment:** `Node`
+   - **Build Command:** `npm install && npm run seed` *(This installs dependencies and seeds the mock database)*
+   - **Start Command:** `npm start`
+   - **Instance Type:** `Free`
+5. **Deploy!**
+   Click **Create Web Service**. Wait 2-3 minutes for the build to finish.
+6. **Access your live website:**
+   Your complete app is now live!
+   - **User Store:** `https://your-app-name.onrender.com/`
+   - **Admin Dashboard:** `https://your-app-name.onrender.com/admin/`
+
+---
+
 ## 📂 Project Structure Overview
 
 ```text
@@ -96,8 +124,7 @@ Online Book Shop/
 │   ├── admin/                  # Admin Dashboard Frontend (HTML, CSS, JS)
 │   └── user/                   # User Shop Frontend (HTML, CSS, JS)
 ├── server/
-│   ├── admin-server.js         # Backend logic/routes for the Admin panel (Port 3001)
-│   ├── user-server.js          # Backend logic/routes for the User app (Port 3000)
+│   ├── server.js               # Unified backend logic & routes for the entire project!
 │   ├── db.js                   # LowDB configuration adapter
 │   └── seed.js                 # Database seeder script
 ├── package.json                # Project dependencies and script commands
