@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A full-stack online book shop with user and admin portals",
   "scripts": {
+    "start": "npm install && npm run seed && npm run dev",
     "dev": "concurrently \"npm run user\" \"npm run admin\"",
     "user": "node server/user-server.js",
     "admin": "node server/admin-server.js",

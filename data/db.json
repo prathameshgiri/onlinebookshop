@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "id": "c9cb7b6a-3e68-4e08-8e77-58fff29681ee",
+      "id": "f8cca2e7-1d17-4f1b-b60a-a61177443d30",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "price": 299,
@@ -9,17 +9,17 @@
       "category": "Fiction",
       "rating": 4.5,
       "reviews": 2847,
-      "stock": 46,
+      "stock": 50,
       "description": "A story of decadence, idealism, and the American Dream set in the Jazz Age.",
       "coverColor": "#1a1a2e",
       "coverAccent": "#e94560",
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
       "badge": "Bestseller",
       "featured": true,
-      "createdAt": "2026-03-24T07:40:38.283Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "c0fd7fd3-7088-4dae-bdfe-f7e175955f90",
+      "id": "4356df0a-9698-44b9-9e58-a5744a6d9168",
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "price": 349,
@@ -27,17 +27,17 @@
       "category": "Fiction",
       "rating": 4.8,
       "reviews": 5921,
-      "stock": 33,
+      "stock": 35,
       "description": "A Pulitzer Prize-winning masterwork of honor and injustice in the deep South.",
       "coverColor": "#0f3460",
       "coverAccent": "#e2b04a",
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780061935466-L.jpg",
       "badge": "Award Winner",
       "featured": true,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "a3f428a5-57e0-4c78-a3a6-9eafc9438c3e",
+      "id": "caee95d2-187d-4148-98d3-831d4d5bac94",
       "title": "1984",
       "author": "George Orwell",
       "price": 249,
@@ -45,17 +45,17 @@
       "category": "Dystopian",
       "rating": 4.7,
       "reviews": 8103,
-      "stock": 58,
+      "stock": 60,
       "description": "A dystopian social science fiction novel and cautionary tale about totalitarianism.",
       "coverColor": "#16213e",
       "coverAccent": "#c84b31",
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
       "badge": "Classic",
       "featured": true,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "abab9cf1-64ee-4b93-9681-fcaebb30add5",
+      "id": "ea6c5cc5-4f7b-416c-be8e-109e64c94f85",
       "title": "Atomic Habits",
       "author": "James Clear",
       "price": 499,
@@ -63,17 +63,17 @@
       "category": "Self-Help",
       "rating": 4.9,
       "reviews": 12450,
-      "stock": 78,
+      "stock": 80,
       "description": "An easy and proven way to build good habits and break bad ones.",
       "coverColor": "#1b4332",
       "coverAccent": "#f4d03f",
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg",
       "badge": "#1 Bestseller",
       "featured": true,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "06d56576-c8d8-4a41-a4e9-ed9ad268d49b",
+      "id": "65ddb3b0-801c-4eca-b75c-17e99fe514e4",
       "title": "Sapiens",
       "author": "Yuval Noah Harari",
       "price": 449,
@@ -88,10 +88,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
       "badge": "Trending",
       "featured": false,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "ba397442-8672-4ec0-8e45-b51bf3677ac2",
+      "id": "5b885bbf-65de-4e2f-bf72-62c45c6ef45f",
       "title": "The Psychology of Money",
       "author": "Morgan Housel",
       "price": 399,
@@ -99,17 +99,17 @@
       "category": "Finance",
       "rating": 4.7,
       "reviews": 7856,
-      "stock": 51,
+      "stock": 55,
       "description": "Timeless lessons on wealth, greed, and happiness.",
       "coverColor": "#1a3a4a",
       "coverAccent": "#27ae60",
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780857197689-L.jpg",
       "badge": "New",
       "featured": false,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "cf66ce75-59cf-45f1-8ce4-7eedc6ef7540",
+      "id": "b50bb222-9026-4fc6-910e-2985888a3bef",
       "title": "Dune",
       "author": "Frank Herbert",
       "price": 549,
@@ -117,17 +117,17 @@
       "category": "Sci-Fi",
       "rating": 4.8,
       "reviews": 6721,
-      "stock": 28,
+      "stock": 30,
       "description": "Set in the distant future amidst a feudal interstellar society.",
       "coverColor": "#3d2b1f",
       "coverAccent": "#e67e22",
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780441013593-L.jpg",
       "badge": "Epic",
       "featured": false,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "40e44c41-899a-48ff-b303-76ff2bdd0e7d",
+      "id": "7b48854f-4a29-4063-ae49-5758ac754ab6",
       "title": "The Midnight Library",
       "author": "Matt Haig",
       "price": 329,
@@ -142,10 +142,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg",
       "badge": "Staff Pick",
       "featured": false,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "d688a142-7c7f-4851-be6a-f0f5bf1d4dd4",
+      "id": "a03e587b-8da4-4967-9a26-097836d5e662",
       "title": "Thinking, Fast and Slow",
       "author": "Daniel Kahneman",
       "price": 459,
@@ -160,10 +160,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg",
       "badge": "Nobel Winner",
       "featured": false,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "45c10d85-89cf-4f8d-a813-1a8be0b9d469",
+      "id": "71d154ec-9a64-4ad2-8658-376da4837a54",
       "title": "The Alchemist",
       "author": "Paulo Coelho",
       "price": 199,
@@ -178,10 +178,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg",
       "badge": "All Time Classic",
       "featured": false,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "3af8cd35-2c7b-4c11-9a37-9bfba4a52b7e",
+      "id": "b59daa20-ca30-49f1-9fd9-e8e1efa80aaf",
       "title": "Rich Dad Poor Dad",
       "author": "Robert T. Kiyosaki",
       "price": 279,
@@ -196,10 +196,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg",
       "badge": "Iconic",
       "featured": false,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     },
     {
-      "id": "ebb15fb8-35a6-4ead-a81b-1905ae3bdf8e",
+      "id": "265afbf2-c0a9-4424-b503-0ce48ff9c019",
       "title": "Brave New World",
       "author": "Aldous Huxley",
       "price": 229,
@@ -214,161 +214,10 @@
       "coverImage": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
       "badge": "Classic",
       "featured": false,
-      "createdAt": "2026-03-24T07:40:38.284Z"
+      "createdAt": "2026-03-26T17:43:04.122Z"
     }
   ],
-  "orders": [
-    {
-      "id": "1eb4789f-c11c-4878-9ec3-8cc803886393",
-      "orderNumber": "ORD-1774338129075",
-      "customer": {
-        "name": "Prathamesh Giri",
-        "email": "prathameshgiri8607@gmail.com",
-        "phone": "3456789",
-        "address": "dfghj"
-      },
-      "items": [
-        {
-          "id": "ba397442-8672-4ec0-8e45-b51bf3677ac2",
-          "title": "The Psychology of Money",
-          "price": 399,
-          "quantity": 4
-        }
-      ],
-      "total": 1596,
-      "paymentMethod": "cod",
-      "status": "pending",
-      "createdAt": "2026-03-24T07:42:09.075Z"
-    },
-    {
-      "id": "a82a0ab2-e4c0-4827-9f41-037b7f1ef7ce",
-      "orderNumber": "ORD-1774338270333",
-      "customer": {
-        "name": "John Doe",
-        "email": "john@example.com",
-        "phone": "9876543210",
-        "address": "123 Street, Delhi, 110001"
-      },
-      "items": [
-        {
-          "id": "9a60860a-d1d2-4b2c-9c2e-519d6c6390ed",
-          "title": "To Kill a Mockingbird",
-          "price": 14.99,
-          "quantity": 2
-        },
-        {
-          "id": "c9cb7b6a-3e68-4e08-8e77-58fff29681ee",
-          "title": "The Great Gatsby",
-          "price": 299,
-          "quantity": 2
-        }
-      ],
-      "total": 627.98,
-      "paymentMethod": "card",
-      "status": "pending",
-      "createdAt": "2026-03-24T07:44:30.333Z"
-    },
-    {
-      "id": "e4d64ef7-3b19-4067-8a02-16f425166b23",
-      "orderNumber": "ORD-1774345270339",
-      "customer": {
-        "name": "Prathamesh Giri",
-        "email": "prathameshgiri8607@gmail.com",
-        "phone": "3456789",
-        "address": "dfghj"
-      },
-      "items": [
-        {
-          "id": "a3f428a5-57e0-4c78-a3a6-9eafc9438c3e",
-          "title": "1984",
-          "price": 249,
-          "quantity": 1
-        }
-      ],
-      "total": 298,
-      "paymentMethod": "cod",
-      "status": "pending",
-      "createdAt": "2026-03-24T09:41:10.339Z"
-    },
-    {
-      "id": "bab0714e-960b-49bc-b5a3-729ca61649de",
-      "orderNumber": "ORD-1774345385975",
-      "customer": {
-        "name": "Prathamesh Giri",
-        "email": "prathameshgiri8607@gmail.com",
-        "phone": "3456789",
-        "address": "dfghj"
-      },
-      "items": [
-        {
-          "id": "cf66ce75-59cf-45f1-8ce4-7eedc6ef7540",
-          "title": "Dune",
-          "price": 549,
-          "quantity": 2
-        }
-      ],
-      "total": 1098,
-      "paymentMethod": "cod",
-      "status": "pending",
-      "createdAt": "2026-03-24T09:43:05.975Z"
-    },
-    {
-      "id": "28a53c3e-032a-47ab-8619-9041e5df7176",
-      "orderNumber": "ORD-1774345497886",
-      "customer": {
-        "name": "Prathamesh Giri",
-        "email": "prathameshgiri8607@gmail.com",
-        "phone": "3456789",
-        "address": "dfghj"
-      },
-      "items": [
-        {
-          "id": "c0fd7fd3-7088-4dae-bdfe-f7e175955f90",
-          "title": "To Kill a Mockingbird",
-          "price": 349,
-          "quantity": 2
-        },
-        {
-          "id": "abab9cf1-64ee-4b93-9681-fcaebb30add5",
-          "title": "Atomic Habits",
-          "price": 499,
-          "quantity": 2
-        },
-        {
-          "id": "a3f428a5-57e0-4c78-a3a6-9eafc9438c3e",
-          "title": "1984",
-          "price": 249,
-          "quantity": 1
-        }
-      ],
-      "total": 1945,
-      "paymentMethod": "cod",
-      "status": "shipped",
-      "createdAt": "2026-03-24T09:44:57.886Z"
-    },
-    {
-      "id": "fb23a9d2-77b7-4c37-bcf3-3a75c1123d4a",
-      "orderNumber": "ORD-1774345733310",
-      "customer": {
-        "name": "Subagent Test",
-        "email": "test@example.com",
-        "phone": "9876543210",
-        "address": "123 Test Street, Mumbai, Maharashtra"
-      },
-      "items": [
-        {
-          "id": "c9cb7b6a-3e68-4e08-8e77-58fff29681ee",
-          "title": "The Great Gatsby",
-          "price": 299,
-          "quantity": 2
-        }
-      ],
-      "total": 598,
-      "paymentMethod": "card",
-      "status": "pending",
-      "createdAt": "2026-03-24T09:48:53.311Z"
-    }
-  ],
+  "orders": [],
   "messages": [],
   "admins": [
     {
