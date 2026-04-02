@@ -164,7 +164,9 @@ app.get('/api/stats', (req, res) => {
     happyReaders: '50K+',
     yearsOfService: 12
   });
-});\n\n// ─── AUTH MIDDLEWARE ───────────────────────────────────────────────────────────
+});
+
+// ─── AUTH MIDDLEWARE ───────────────────────────────────────────────────────────
 
 function authMiddleware(req, res, next) {
   const token = req.headers.authorization?.split(' ')[1];
